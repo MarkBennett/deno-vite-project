@@ -16,7 +16,7 @@ jobs:
       - name: Install Deno
         uses: denoland/setup-deno@v1
         with:
-          deno-version: v.1.x
+          deno-version: v1.x
 
       - name: Build production
         env:
